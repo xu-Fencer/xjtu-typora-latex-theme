@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>打印页眉示例</title>
+  <style>
+    /* 设置打印页面的边距 */
+    @page {
+      margin: 3cm 2.6cm 2.5cm 2.6cm; /* 上、右、下、左 */
+      size: A4; /* 设置纸张大小为 A4 */
+
+      /* 定义页眉 */
+      @top-center {
+        content: "这是页眉 - 公司名称";
+        font-size: 12pt;
+        font-weight: bold;
+        color: #000;
+      }
+
+      /* 定义页脚（可选） */
+      @bottom-center {
+        content: "这是页脚 - 第 " counter(page) " 页";
+        font-size: 10pt;
+        color: #666;
+      }
+    }
+
+    /* 打印时隐藏屏幕专用内容 */
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
+
+    /* 正文内容样式 */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 正文内容 -->
+  <h1>这是一个打印样式示例</h1>
+  <p>这段文字将会出现在打印页面中。</p>
+  <p>为了测试分页效果，可以添加更多内容...</p>
+  <p>（重复段落以填充页面）</p>
+  <p>（重复段落以填充页面）</p>
+  <p>（重复段落以填充页面）</p>
+  <p>（重复段落以填充页面）</p>
+  <p>（重复段落以填充页面）</p>
+
+  <!-- 按钮：仅用于屏幕显示 -->
+  <button class="no-print">点击打印</button>
+
+  <script>
+    // 点击按钮触发打印
+    document.querySelector('.no-print').addEventListener('click', () => {
+      window.print();
+    });
+  </script>
+</body>
+</html>
