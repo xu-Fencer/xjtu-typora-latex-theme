@@ -417,9 +417,12 @@ sup {
 }
 .footnotes-area .footnote-line {
   color: var(--text-color);
-  font-size: 0.95em;
-  margin-top: 0.5em;
+  font-size: 10.5pt;
+  margin-top: 0;
+  margin-bottom: 8pt;
+  line-height: 150%;
 }
+
 .footnotes-area .footnote-line *:not(.md-fn-count) {
   display: inline-block;
   vertical-align: top;
@@ -514,7 +517,7 @@ sup.md-footnote:not(.md-expand):after {
   /* -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;*/
-  /* 为了让项目编号是重新用句点对齐而不是左对齐 */
+  /* 为了让项目编号时重新用句点对齐而不是左对齐 */
   width: 4em;
   text-align: right;
 }
@@ -626,7 +629,7 @@ li code {
   /* padding: 10px; */
   font-size: 1em;
 }
-
+/* 使用主题 neat */
 .cm-s-inner span.cm-comment { color: #a86; }
 .cm-s-inner span.cm-keyword { line-height: 1em; font-weight: bold; color: blue; }
 .cm-s-inner span.cm-string { color: #a22; }
@@ -647,7 +650,7 @@ li code {
   font-family: var(--code-font), var(--ui-font), monospace;
 }
 
-/* 目录 */
+/* 目录 (但这个目录不符合正式要求）*/
 .md-toc {
   font-size: var(--toc-font-size);
 }
@@ -734,15 +737,19 @@ li code {
 }
 
 /* 摘要样式 */
-.abstract::before {
+.abstract::before,.abstract-en::before {
   content: "摘　要";
   text-align: center;
   font-size: 16pt;
-  
-  
 }
 
-.abstract {
+.abstract-en::before {
+  content: "ABSTRACT";
+  text-align: center;
+  font-size: 16pt;
+}
+
+.abstract,.abstract-en{
   break-before: page;
   text-align: center;
   margin-top: 32pt;
@@ -750,43 +757,19 @@ li code {
 }
 
 /* 关键词样式 */
-.keyword::before {
+.keywords::before {
   content: "关 键 词：";
   font-size: 12pt;
   font-weight: bold;
 }
 
-.keyword {
+.keywords-en::before{
+  content: "KEY WORDS：";
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.keywords,.keywords-en {
   /* font-weight: bold; */
   font-size: 12pt;
-}
-
-/* 页眉页脚默认状态下不显示 */
-.print-header {
-  display: none !important; /* 不好的使用方式 */
-  width: 15.8cm;
-  position: fixed;
-  /* top: 1px !important; */
-  text-align: center;
-  line-height: 150%;
-  border-bottom: 1px solid #000;
-  padding-bottom: 5px;
-  height: 1cm;
-}
-
-.print-footer{
-  display: none;
-}
-
-#write::before{
-  content: "页眉内容";
-  display: none;
-  width: 15.8cm;
-  position: fixed;
-  text-align: center;
-  font-size: 10.5pt;
-  height: 1cm;
-  /* font-weight: bold; */
-  border-bottom: 1px solid #000;
-  /* margin-bottom: 20px; */
 }

@@ -1,82 +1,50 @@
-<div class="cover" style="break-after:page;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;">
-    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:10%;">
-        </br>
-        <img src="https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/ZJU-name.svg" alt="校名" style="width:100%;"/>
-    </div>
-    </br></br></br></br></br>
-    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:40%;">
-        <img src="https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/ZJU-logo.svg" alt="校徽" style="width:100%;"/>
-	</div>
-    </br></br></br></br></br></br></br></br>
-    <span style="font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;">《论文名称》</span>
-    <p style="text-align:center;font-size:14pt;margin: 0 auto">论文类型 </p>
-    </br>
-    </br>
-    <table style="border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;">
-    <tbody style="font-family:方正公文仿宋;font-size:12pt;">
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">题　　目</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 论文题目</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">上课时间</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 上课时间</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">授课教师</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">教师姓名 </td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">姓　　名</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 你的名字</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">学　　号</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">你的学号 </td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">组　　别</td>
-    		<td style="width:%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 你的组别</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">日　　期</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">完成日期</td>     </tr>
-    </tbody>              
-    </table>
+<div class="cover" style='break-after: page;font-family:Latin Modern Roman", "Latin Modern Roman 10", Times;'><p style='font-size: 24pt;line-height: 150%;text-align: center;font-weight: bold;'>西安交通大学</p>
+<p style='line-height: 150%;font-size: 18pt;text-align: center;'>《英语词汇与文化》课程</p>
+<p style="width: 15.8cm;line-height: 150%;font-size: 18pt;border-bottom: solid 1.5pt #000;text-align: center;padding: 5pt;">2024-2025 学年 2nd Term</p>
+<p style="line-height: 15.75pt;"></br></br></br></br></br></br></p>
+<p style="font-size: 22pt;font-weight: bold;text-align: center;">标题XXXXXX</p>
+<p style="line-height: 15.75pt;"></br></br></br></br></br></p>
+<table style="border:none;text-align:center;width:100%;font-family:宋体;font-size:15pt; margin: 0 auto;">
+  <tbody>
+    <tr style="font-weight:normal;"> 
+      <td style="width:20%;text-align:right;">姓名</td>
+      <td style="width:2%">：</td> 
+      <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:宋体">你的名字</td>    
+    </tr>
+    <tr style="font-weight:normal;"> 
+      <td style="width:20%;text-align:right;">学号</td>
+      <td style="width:2%">：</td> 
+      <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:宋体">你的学号</td>    
+    </tr>
+    <tr style="font-weight:normal;"> 
+      <td style="width:20%;text-align:right;">学院或专业</td>
+      <td style="width:2%">：</td> 
+      <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:宋体">你的学院</td>    
+    </tr>
+    <tr style="font-weight:normal;"> 
+      <td style="width:20%;text-align:right;">班级</td>
+      <td style="width:2%">：</td> 
+      <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:宋体">你的班级</td>    
+    </tr>
+    <tr style="font-weight:normal;"> 
+      <td style="width:20%;text-align:right;">提交日期</td>
+      <td style="width:2%">：</td> 
+      <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:宋体">完成日期</td>    
+    </tr>
+  </tbody>
+</table>
+  <p></br></br></p>
+  <img src ="http://vi.xjtu.edu.cn/images/a1-3jdxhred.png" alt="交大校徽" style="display: block; margin: 0 auto; width: 2.68cm; height: 2.68cm;">
 </div>
 <!-- 注释语句：导出PDF时会在这里分页 -->
 
+<div class="abstract"></div>
 
-# 计算机工作枢纽——操作系统
+​		这里前面应该显示摘要两个字，typora预览不显示这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要
 
-<center><div style='height:2mm;'></div><div style="font-family:华文楷体;font-size:14pt;">你的名字，12345678909 （学号）</div></center>
-<center><span style="font-family:华文楷体;font-size:9pt;line-height:9mm">浙江大学***** (单位)</span>
-</center>
-<div>
-<div style="width:52px;float:left; font-family:方正公文黑体;">摘　要：</div> 
-<div style="overflow:hidden; font-family:华文楷体;">在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统Windows和macOS的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上某一个操作系统，供读者参考。</div>
-</div>
-<div>
-<div style="width:52px;float:left; font-family:方正公文黑体;">关键词：</div> 
-<div style="overflow:hidden; font-family:华文楷体;">计算机；操作系统；功能；发展；Windows；macOS；</div>
-</div>
+​		这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要这是摘要
 
-
-# Computer Work Hub — Operating System
-
-<center><div style='height:2mm;'></div><div style="font-size:14pt;">Author</div></center>
-<center><span style="font-size:9pt;line-height:9mm"><i>Zhejiang University</i></span>
-</center>
-<div>
-<div style="width:82px;float:left;line-height:16pt"><b>Abstract: </b></div> 
-<div style="overflow:hidden;line-height:16pt">Under the background of the information age, computer operating systems are widely used in various industries. This paper tries to give a general understanding of the computer operating system by introducing the concept, functions and classifications, and history of computer systems. And by briefly introducing the current mainstream desktop operating systems Windows and macOS, readers can have a comprehensive view of modern graphical interface operating systems, and get to know thus begin to like one of them. This article is for readers' reference.</div>
-</div>
-<div>
-<div style="width:82px;float:left;line-height:16pt"><b>Key Words: </b></div> 
-<div style="overflow:hidden;line-height:16pt">Computer; Operating System; Function; Development; Windows; macOS;</div>
-</div>
-
+<div class='keyword'>这里前面应该显示关键词；两个字，typora预览不显示；这是关键词</div>
 
 ## 什么是计算机操作系统
 
@@ -86,11 +54,12 @@
 
 ### 操作系统的功能
 
-　　简单地说，操作系统管理并分配资源、调度和运行程序，位于底层硬件与用户之间，帮助用户和机器进行交互，架起了一座沟通用户与机器的桥梁：用户在操作系统的用户界面中输入命令；而操作系统则对命令进行解释，驱动硬件设备，以实现用户的要求。^[2]^ 一个符合现代标准个人电脑的操作系统一般应该提供以下的功能：
+　　简单地说，操作系统管理并分配资源、调度和运行程序，位于底层硬件与用户之间，帮助用户和机器进行交互，架起了一座沟通用户与机器的桥梁：用户在操作系统的用户界面中输入命令[^2]；而操作系统则对命令进行解释，驱动硬件设备，以实现用户的要求。^[2]^ 一个符合现代标准个人电脑的操作系统一般应该提供以下的功能：
 
 #### 进程管理（处理器管理）
 
 　　在系统运行过程中，通过实施CPU分配策略，中央处理器可以根据计算机操作系统运行情况、所需执行程序命令内容，将各项程序任务进行合理分配，以保证系统运行稳定、命令得到有效执行。
+
 　　这分为四个方面：进程控制、进程同步、进程通信、调度。
 
 　　进程控制，是在并发执行多个作业时，为作业窗创建、终止进程，以及对进程在运行中状态改变的控制。
@@ -189,6 +158,8 @@ for i in range(10):
 
 　　个人电脑市场目前分为两大阵营，此两种架构分别有支持的操作系统：
 
+<div class='caption'>表 1 元神启动在哪个平台上更好</div>
+
 | <span style="font-family:'Latin Modern Roman',宋体-简;font-weight:750">Apple  Mac</span> | <span style="font-family:'Latin Modern Roman',宋体-简;font-weight:normal">macOS（原Mac OS X）、Windows（当前仅支持Intel平台，但有消息称ARM版Windows也即将支持使用Apple Silicon的Mac）、Linux、BSD </span> |
 | ----------------- | ------------------------------------------------------------|
 | **IBM** **兼容PC** | Windows、Linux、BSD、macOS（非正式支持，俗称黑苹果）         |
@@ -197,7 +168,18 @@ for i in range(10):
 
 　　在1990年代初期，Psion推出了小型移动计算设备Psion Series 3 PDA。它支持在名为EPOC的操作系统上运行的用户编写的应用程序。EPOC的更高版本成为Symbian，被用于诺基亚、爱立信、索尼爱立信、摩托罗拉、三星等手机；塞班在2010年之前曾是世界上使用最广泛的智能手机操作系统。微软也推出过Windows Mobile系列系统，它在2007年达到顶峰时，曾是美国智能手机最常用的操作系统。
 　　Microsoft于2010年通过Windows Phone重新进入了移动操作系统市场，并在2015年被更新的Windows 10 Mobile取代。Windows 10 Mobile是Windows 10操作系统的分支版本，专为屏幕尺寸低于8寸的智能手机和平板电脑运行。它采用ARM架构和IA-32处理器架构，为移动设备提供了"强大的功能"。其中包括同步处理功能、通用应用、从Android和iOS的平台移植的应用、将设备连接至外部屏幕、可使用类似PC的鼠标和键盘输入等。尽管设想与愿景十分美好，但最终呈现效果始终不尽人意。2020年1月14日，因为Windows 10 Mobile使用人数太少，欠缺App开发人员，该系统正式停止更新，最后一个版本号停留在1709（10.0.15254.603）。许多人对Windows 10 Mobile的结局感到痛心疾首，读者可以通过[这里](https://www.microsoft.com/en-us/windows/windows-10-mobile-specifications)尝试为您的手机安装该系统。
+
+这是一个手动换页符
+
+<div class='breakafter'></div>
+
 　　Apple在2007年推出了iPhone及其操作系统，后者称为iPhone OS（也就是如今的iOS），它与Mac OS X一样，都基于类似Unix的Darwin。除了这些基础之外，它还引入了功能强大且创新的图形用户界面，该界面后来也用于Apple的平板电脑iPad上。（后来Apple将iPad上的操作系统与手机端区分开，改叫iPadOS。）一年后，基于经过修改的Linux内核，Google引入了具有自己的图形用户界面的Android。
+　　
+　　
+这是一个手动换页符
+
+<div class='breakafter'></div>
+
 　　截止本文完稿，iOS已更新至iOS 14.3；Android已更新至Android 11（Beta 3）。读者可以分别点击[这里](https://www.apple.com.cn/ios/)和[这里](https://android.com/)查看关于这两个操作系统的更多官方信息。
 　　除了这些，移动领域还竞争着各种各样的其他移动操作系统。不过如今移动端主流的操作系统只有iOS和Android系统及基于Android内核修改的其他“换壳”安卓系统。
 
@@ -270,3 +252,7 @@ for i in range(10):
 ［12］ Statcounter. Desktop Operating System Market Share China [DS/OL]. (2020-12-20) [2021-01-09]. https://gs.statcounter.com/os-market-share/desktop/china/
 ［13］ 维基百科编者.Microsoft Windows[G/OL].维基百科, 2021(2021-01-02)[2021-01-10]. https://zh.wikipedia.org/w/index.php?title=Microsoft_Windows&oldid=63546256.
 ［14］ 韩兵,李海坤.浅谈Windows操作系统[J].数码世界,2017(06):66-67.
+
+[^2]:昂温 G．外国出版史［M］．陈生铮译．北京：中国书籍出版社，1988．
+[^3]:114514
+
