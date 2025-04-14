@@ -780,3 +780,7 @@ li code {
   text-align: center;
   font-size: 16pt;
 }
+
+.reference {
+  break-before: page;
+}
