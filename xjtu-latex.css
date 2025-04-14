@@ -737,7 +737,7 @@ li code {
 }
 
 /* 摘要样式 */
-.abstract::before,.abstract-en::before {
+.abstract::before{
   content: "摘　要";
   text-align: center;
   font-size: 16pt;
@@ -772,4 +772,11 @@ li code {
 .keywords,.keywords-en {
   /* font-weight: bold; */
   font-size: 12pt;
+}
+
+/* 引用样式 */
+.reference::before {
+  content: "参考文献";
+  text-align: center;
+  font-size: 16pt;
 }
